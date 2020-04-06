@@ -1,0 +1,283 @@
+/*
+Master Stylesheet
+==================================
+Tamplate Name:tinyone
+Author:samafe islam tonnyma
+Author Url:http//samafe.com
+description: PSD to HTML Prectise
+tag:Blog
+*/
+/*
+      Contents
+      ==============
+      1.typrography
+      2.heading
+      3.pragraph
+      4. newsletter
+      5.Button
+      6.Footer
+      
+*/
+/*font-family: 'PT Sans', sans-serif;*/
+/*==========================
+     TRYPOGRAPHY
+     =========================
+*/
+
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans:wght@400;700&display=swap');
+*{
+box-sizing: border-box;
+}
+body{
+margin: 0;
+padding: 0;
+font-family: 'PT Sans', sans-serif;
+font-weight: 400;
+font-size: 16px;
+color: #898989;
+
+}
+h1,h2,h3,h4,h5,h6{
+	font-size: 32px;
+	font-weight: 700;
+	line-height: 35px;
+	margin: 0;
+  color: #010101;
+}
+h2{
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 36px;
+  color: #010101;
+  
+}
+h3{
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 27px;
+  color:#313841;
+  padding: 25px 0; 
+}
+
+p{
+	margin: 0;
+}
+/*==========================
+     		Header
+     =========================
+*/
+header{
+  background-color: #fcdb00;
+}
+.contain{
+  width: 90%;
+  margin: 0 auto;
+
+}
+.menu{
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  padding: 60px 0;
+
+  align-items: center;
+}
+.logo{
+  width: 20%;
+}
+.navbar{
+    width: 60%;
+}
+.navbar ul{
+  text-align: right;
+}
+.navbar ul li{
+  display: inline-block;
+  
+}
+.navbar ul li a{
+  text-decoration: none;
+  font-size: 22px;
+  font-weight: 700;
+  color: #010101;
+  text-transform: capitalize;
+  padding: 0 35px;
+}
+.navbar ul li a:hover{
+  color: #ffffff;
+  transition:.3s all ease-in-out ;
+}
+.navbar ul li:last-child a{
+  padding-right:0;
+}
+/*==========================
+       benner
+     =========================
+*/
+.banner{ 
+display: flex;
+justify-content: space-between;
+align-items: center;
+padding-bottom: 100px;
+
+}
+.content{
+      width: 35%;
+  padding:50px 0;
+}
+
+.image{
+   width: 35%;
+   text-align: right;
+   margin-right:50px; 
+}
+.subtitles{
+  padding: 25px 0;
+}
+.icon{
+
+}
+.icon ul{
+  padding: 0;
+}
+.icon ul li{
+  display: inline-block;
+ }
+.icon  ul li a{
+  
+  padding-right: 30px;
+  font-size: 42px;
+  color: #010101;
+}
+section{
+  width: 90%;
+  margin: 0 auto; 
+}
+.feature-heading{
+  text-align: center;
+  padding-top: 100px;
+  padding-bottom: 60px;
+  width: 80%;
+  margin: 0 auto;
+}
+.feature{
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 80px;
+}
+.blog-part{
+  width: 32%;
+}
+.blog{
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+ 
+
+}
+.blog-icon{
+  width: 30%;
+
+}
+.blog-icon i{
+  font-size: 50px;
+  color: #010101;
+}
+.blog-icon-a{
+  width: 70%;
+}
+.blog-title h2{
+  font-size: 22px;
+  color: #010101;
+  font-weight: 500;
+  margin-bottom: 10px;
+}
+footer{
+  background-color:#010101; 
+  padding: 80px 0;
+  }
+.title h2{
+   color:#fcdb00; 
+}
+.subtitle h3{
+  color: #898989;
+  word-break: break-all;
+}
+form{
+  display: flex;
+  justify-content: space-between;
+}
+input[ type=email]{
+  width: 80%;
+  height: 50px;
+  border: none;
+  border: 2px solid transparent; 
+  border-radius: 5px;
+  padding: 0 25px;
+}
+input[ type=email]:focus{
+  outline: none;
+  border-color:#fcdb00; 
+}
+button{
+  width: 15%;
+  border: none;
+  border-radius: 5px;
+  background-color:#fcdb00;
+  font-size: 16px;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: #010101; 
+  cursor: pointer;
+  }
+  button: hover{
+    border-color:#fcdb00; 
+    background-color:transparent;
+    color: #fcdb00;
+    transition:.3s all ease-in-out;
+  }
+  button:focus{
+  outline: none;
+}
+
+.social{
+  width: 40%;
+  margin: 0 auto;
+  display: flex;
+  text-align: center;
+ justify-content: space-between;
+}
+.social ul{
+   text-align: center;
+     
+}
+.social ul li{
+  display: inline-block;
+  height: 50px;
+  width: 50px;
+  background-color:#fcdb00; 
+  border-top-right-radius: 5px;
+  border-top-left-radius: 5px;
+   border-bottom-right-radius: 5px;
+  border-bottom-left-radius: 5px;
+}
+.social ul li a{
+  display: block;
+  margin: 15%;
+}
+.social ul li i{
+  font-size: 42px;
+   color:#010101;
+   align-items: center;  
+}
+.details{
+ width: 90%;
+ margin: 0 auto;
+ display: flex;
+ justify-content: space-between;
+ padding: 100px 0;
+ }
+.content{ 
+  width: 35%;
+    padding: 0px 0;
+}
