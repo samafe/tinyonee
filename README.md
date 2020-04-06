@@ -1,2 +1,3 @@
 # tinyonee
-project
+project: https://samafe.github.io/tinyonee/
+
